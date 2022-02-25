@@ -40,7 +40,7 @@
     border-radius: 5px;
 }
 
-.charmander img {
+img {
     width: 25%;
 }
 
@@ -50,6 +50,13 @@
     border-radius: 5px;
 }
 
-.charmander #enlace{
+#enlace{
     text-align: center;
 }
+
+/* Media query para el diseño responsive*/
+@media only screen and (max-width: 600px) {
+    .index, .charmander img {
+      width: 100%;
+    }
+  }
